@@ -10,7 +10,7 @@ gulp.task('default', function() {
       environment: 'development'
     }
   };
-  gulp.src(['./styles.css.sass.ejs'])
+  gulp.src(['./stylesheets/styles.css.sass.ejs'])
     .pipe(chainedPreprocessors(options))
     .pipe(gulp.dest('../../temp/test'));
 });

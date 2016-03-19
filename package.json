@@ -21,7 +21,7 @@
     "rimraf": "^2.5.2"
   },
   "dependencies": {
-    "chained-preprocessors": "^0.9.2",
+    "chained-preprocessors": "^0.9.3",
     "through2": "^2.0.1"
   }
 }

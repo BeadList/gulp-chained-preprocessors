@@ -1,8 +1,11 @@
+@import secondary.css.sass
 $primary-color: <%= primaryColor %>
 
 .header
   background: $primary-color;
+  color: $secondary-color;
 <% if (environment === 'development') { %>
   font-weight: bold;
+  
 <% } %>
 

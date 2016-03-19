@@ -15,7 +15,7 @@ describe('chainedPreprocessors', function() {
     exec('gulp', { cwd }, (err, stdout) => {
       expect(fs.existsSync(resultPath)).to.equal(true);
       expect(fs.readFileSync(resultPath).toString()).to
-        .equal('.header {\n  background: red;\n  font-weight: bold; }\n');
+        .equal('.header {\n  background: red;\n  color: blue;\n  font-weight: bold; }\n');
       done();
     });
   });
