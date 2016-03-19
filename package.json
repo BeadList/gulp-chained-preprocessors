@@ -1,6 +1,6 @@
 {
   "name": "gulp-chained-preprocessors",
-  "version": "0.8.2",
+  "version": "0.9.0",
   "description": "",
   "main": "dist/gulp-chained-preprocessors.js",
   "scripts": {
