@@ -1,6 +1,6 @@
 {
   "name": "gulp-chained-preprocessors",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "description": "",
   "main": "dist/gulp-chained-preprocessors.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "rimraf": "^2.5.2"
   },
   "dependencies": {
-    "chained-preprocessors": "^0.9.3",
+    "chained-preprocessors": "^0.10.0",
     "through2": "^2.0.1"
   }
 }
